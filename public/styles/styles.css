@@ -1,0 +1,114 @@
+/* Your styles go in this file */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(221, 221, 249);
+    color: #611b48;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1{
+    font-family: 'Archivo', sans-serif;
+    font-size:x-large;
+    font-weight: 600;
+}
+
+h2{
+    font-size: large;
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    text-align: baseline;
+    gap: 10px;
+}
+
+button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 45px;
+    margin:5px;
+    
+    color: #c22f31;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: large;
+    border: 2px rgb(240, 231, 231);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#submit_button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight:600;
+    font-size: large;
+}
+
+input#song {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 2px rgb(232, 221, 240);
+    border-radius: 5px;
+    background-color: white;
+    font-size:medium;
+}
+
+
+table{
+    table-layout: fixed;
+    width: 75%;
+    border: 2px solid rgb(221, 221, 249);
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    color: #3f032a;
+}
+
+
+tbody th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(221, 221, 249);
+}
+
+tbody tr:nth-child(1) {
+    width: 10%;
+    background-color: rgb(89, 89, 141);
+    color: rgb(240, 240, 254);
+    font-weight: 600;
+}
+
+tbody tr:nth-child(2) {
+    width: 30%;
+}
+
+tbody tr:nth-child(3) {
+    width: 25%;
+}
+
+tbody tr:nth-child(4) {
+    width: 15%;
+}
+

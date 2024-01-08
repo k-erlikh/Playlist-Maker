@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Roboto&family=Rubik&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="container">
+        <h1>Playlist Maker</h1>
+        <table id="playlist">
+            <tbody>
+                <tr id="-1">
+                    <td>Delete/Up/Down</td>
+                    <td>Song</td>
+                    <td>Artist</td>
+                    <td>Cover</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="wrapper">
+            <div class="playlist"></div>
+                <h2>Enter a song name: </h2>
+                <input type="text" id="song" />
+                <button id="submit_button">Submit</button>
+        </div>
+        <div id="songInfo">
+            <table id="song_result"></table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/eventListeners.js"></script>
+    <script src="js/eventHandlers.js"></script>
+    <script src="js/dynamicButton.js"></script>
+    <script src="js/makeTable.js"></script>
+    <script src="js/localStorage.js"></script>
+</body>
+
+</html>
